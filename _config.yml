@@ -23,22 +23,22 @@ projects:
   #   - stars
   limit: 9
   exclude:
-    archived: false
+    archived: true
     forks: true
     projects:
     # - repo-name
 
-# social_media:
-  # behance: your_username
+social_media:
+#  behance: paulmendes
   # dribbble: your_username
   # facebook: your_username
   # hackerrank: your_username
-  # instagram: your_username
+  instagram: paulse_performance
   # keybase: your_username
-  # linkedin: your_username
+  linkedin: paul-mendes
   # mastodon: your_username
   # medium: your_username
-  # stackoverflow: your_user_id
+  stackoverflow: 9593658
   # telegram: your_username
   # twitter: your_username
   # unsplash: your_username
