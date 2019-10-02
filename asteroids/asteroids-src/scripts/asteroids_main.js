@@ -69,7 +69,7 @@ function onloadHandler()
          locale = parts[0];
       }
    }
-   Game.Util.loadMessages(locale);
+   // Game.Util.loadMessages(locale);
    
    // attach to the image onload handler
    // once the background is loaded, we can boot up the game
