@@ -1,16 +1,16 @@
 ﻿#NOTE: file must be saved with "UTF-8" encoding
 #Standard "en" English messages
 
-title=
-please-wait=
-start=
-author=
-instruction1=
-instruction2=
-instruction3=
-instruction4=
-instruction5=
-instruction6=
+title=ASTEROIDS
+please-wait=Please wait... Loading Images...
+start=Press SPACE or click to start
+author=Credits Kevin Roast
+instruction1=How to play...
+instruction2=Arrow keys to rotate, thrust, shield. SPACE to fire.
+instruction3=Pickup the glowing power-ups to enhance your ship.
+instruction4=Watch out for enemy saucers!
+instruction5=Press S to enable or disable sound.
+instruction6=Press R to switch between Modern and Retro graphics.
 high-score=High Score
 game-over=GAME OVER
 new-high-score=New High Score
