@@ -967,34 +967,34 @@ Game.Util.message = function message(msgId)
 /**
  * Load a message bundle from the server
  */
-Game.Util.loadMessages = function loadMessages(locale)
-{
-   var req = new XMLHttpRequest();
-   if (req.overrideMimeType) req.overrideMimeType('text/plain; charset=utf-8');
-   req.open("GET", "messages-" + locale + ".txt", false);
-   req.onreadystatechange = function (e) {
-         if (req.readyState === 4)
-         {
-            // Status 200 OK (or local dev code is 0)
-            if (req.status === 200 || req.status === 0)
-            {
-               if (req.responseText !== null)
-               {
-                  var msgs = req.responseText.split("\n");
-                  for (var i=0; i<msgs.length; i++)
-                  {
-                     var m = msgs[i].split("=");
-                     if (m[0] && m[1])
-                     {
-                        Game.Util.messages[m[0]] = m[1];
-                     }
-                  }
-               }
-            }
-         }
-      };
-   req.send(null);
-};
+// Game.Util.loadMessages = function loadMessages(locale)
+// {
+//    var req = new XMLHttpRequest();
+//    if (req.overrideMimeType) req.overrideMimeType('text/plain; charset=utf-8');
+//    req.open("GET", "messages-" + locale + ".txt", false);
+//    req.onreadystatechange = function (e) {
+//          if (req.readyState === 4)
+//          {
+//             // Status 200 OK (or local dev code is 0)
+//             if (req.status === 200 || req.status === 0)
+//             {
+//                if (req.responseText !== null)
+//                {
+//                   var msgs = req.responseText.split("\n");
+//                   for (var i=0; i<msgs.length; i++)
+//                   {
+//                      var m = msgs[i].split("=");
+//                      if (m[0] && m[1])
+//                      {
+//                         Game.Util.messages[m[0]] = m[1];
+//                      }
+//                   }
+//                }
+//             }
+//          }
+//       };
+//    req.send(null);
+// };
 
 
 /**
