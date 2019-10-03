@@ -78,25 +78,29 @@ social_media:
 #         image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
 
 skills:
- - category: Webdesign
+ - category: Front-End
    tools:
     - name: HTML
-      web_url: https://github.com/topics/css
-      image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
+      web_url: https://github.com/topics/html
+      image_url: assets/img/html5.png
 
     - name: CSS
       web_url: https://github.com/topics/css
-      image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
+      image_url: assets/img/css3.png
 
-    - name: CSS
-      web_url: https://github.com/topics/css
+    - name: SASS
+      web_url: https://github.com/topics/scss
+      image_url: assets/img/sass.png
+
+    - name: JEKYLL
+      web_url: https://github.com/topics/jekyll
       image_url: assets/img/jekyll.png
 
- - category: Server Side
+ - category: Back-End
    tools:
     - name: Flask
       web_url: https://github.com/topics/flask
-      image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/flask/flask.png
+      image_url: assets/img/flask.png
 
     - name: Python
       web_url: https://github.com/topics/sass

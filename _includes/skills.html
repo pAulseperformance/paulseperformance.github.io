@@ -12,7 +12,7 @@
           </h3>
           <div class="row" style="margin: auto">
             {% for tool in skill.tools %}
-            <div class="col-6 col-md-12 col-lg-6 col-xl-4 mb-3"  style="margin-top: 10px;" {% if skill.category == 'Webdesign' %}id="animated_div"{% endif %}>
+            <div class="col-6 col-md-12 col-lg-6 col-xl-4 mb-3"  style="margin-top: 10px;" {% if skill.category == 'Front-End' %}id="animated_div"{% endif %}>
               {% include skill-card.html %}
             </div>
             {% endfor %}
