@@ -121,3 +121,25 @@ skills:
     - name: SQLITE
       web_url: https://github.com/topics/sqlite
       image_url: assets/img/sqlite.png
+
+    - name: SQL
+      web_url: https://github.com/topics/sql
+      image_url: assets/img/sql.png
+
+ - category: Other
+   tools:
+    - name: GIT
+      web_url: https://github.com/topics/git
+      image_url: assets/img/git.png
+
+    - name: HEROKU
+      web_url: https://github.com/topics/heroku
+      image_url: assets/img/heroku.png
+
+    - name: DOCKER
+      web_url: https://github.com/topics/docker
+      image_url: assets/img/docker.png
+
+    - name: SQLITE
+      web_url: https://github.com/topics/sqlite
+      image_url: assets/img/sqlite.png
