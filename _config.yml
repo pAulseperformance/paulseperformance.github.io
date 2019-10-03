@@ -84,6 +84,10 @@ skills:
       web_url: https://github.com/topics/html
       image_url: assets/img/html5.png
 
+    - name: MARKDOWN
+      web_url: https://github.com/topics/markdown
+      image_url: assets/img/markdown.png
+
     - name: CSS
       web_url: https://github.com/topics/css
       image_url: assets/img/css3.png
@@ -92,16 +96,28 @@ skills:
       web_url: https://github.com/topics/scss
       image_url: assets/img/sass.png
 
+    - name: BOOTSTRAP
+      web_url: https://github.com/topics/bootstrap
+      image_url: assets/img/bootstrap.png
+
     - name: JEKYLL
       web_url: https://github.com/topics/jekyll
       image_url: assets/img/jekyll.png
 
  - category: Back-End
    tools:
-    - name: Flask
+    - name: FLASK
       web_url: https://github.com/topics/flask
       image_url: assets/img/flask.png
 
-    - name: Python
-      web_url: https://github.com/topics/sass
-      image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
+    - name: PYTHON
+      web_url: https://github.com/topics/python
+      image_url: assets/img/python.png
+
+    - name: REDIS
+      web_url: https://github.com/topics/redis
+      image_url: assets/img/redis.png
+
+    - name: SQLITE
+      web_url: https://github.com/topics/sqlite
+      image_url: assets/img/sqlite.png
