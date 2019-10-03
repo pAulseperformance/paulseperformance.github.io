@@ -84,7 +84,7 @@ li.logo span {
   font-weight: inherit;
 }
 .container {
-  width: 95%;
+  /*width: 95%;*/
 }
 h3 {
   font-weight: 200;
@@ -225,6 +225,9 @@ a.hoverline:hover {
   border-bottom: 1px solid #ddd;
   margin-bottom: 30px;
   padding-bottom: 20px;
+  line-height: 2.508rem;
+  font-family: "Roboto",sans-serif;
+  box-sizing: inherit;
 }
 #skills .col img.responsive-img {
   margin: 0 auto;
@@ -324,7 +327,7 @@ small {
     margin-bottom: 40px;
   }
   .container {
-    margin: 0 auto;
+    /*margin: 0 auto;*/
   }
 
   nav.hide-on-large.only.trigger {

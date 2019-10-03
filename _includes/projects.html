@@ -1,31 +1,32 @@
+<!--<div class="container">-->
 <h2 {% if site.style == 'dark' %}class="text-white"{% endif %} href="#">My Projects</h2>
 <p class="f4 mb-4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">Projects I've worked on.</p>
-<div class="d-sm-flex flex-wrap gutter-condensed mb-4">
 
-    <div class="card-deck">
-  <div class="card bg-primary">
-    <div class="card-body text-center">
-      <p class="card-text">Some text inside the first card</p>
+<div class="d-sm-flex flex-wrap gutter-condensed mb-4" j>
+<!--    Bitmex Trading Bot-->
+    <div class="col-sm-6 col-md-12 col-lg-6 col-xl-4 mb-3">
+    <div class="card" style="width:100%; border-radius: 8px;">
+
+      <img class="card-img-top" src="assets/img/bitmex-trader.png" alt="Bitmex Trader Image" style="width:100%">
+      <div class="card-body">
+        <h4 class="card-title">Bitmex Trading Bot</h4>
+        <p class="card-text">Automated Cryptocurrency bot trading on Bitmex</p>
+          <p></p>
+        <a href="#" class="stretched-link"></a>
+      </div>
     </div>
-  </div>
-  <div class="card bg-warning">
-    <div class="card-body text-center">
-      <p class="card-text">Some text inside the second card</p>
     </div>
-  </div>
-  <div class="card bg-success">
-    <div class="card-body text-center">
-      <p class="card-text">Some text inside the third card</p>
+<!--    Cryptopanic Scraper-->
+    <div class="col-sm-6 col-md-12 col-lg-6 col-xl-4 mb-3">
+    <div class="card" style="width:100%; border-radius: 8px;">
+      <img class="card-img-top" src="https://raw.githubusercontent.com/GrilledChickenThighs/cryptopanic_scraper/master/images/screenshot.png" alt="Cryptopanic Scraper" style="width:100%">
+      <div class="card-body">
+        <h4 class="card-title">Cryptopanic Scraper</h4>
+        <p class="card-text">Headless chromedriver for automatic scraping of cryptopanics
+            asynchronous newsfeed.</p>
+          <p></p>
+        <a href="https://github.com/GrilledChickenThighs/cryptopanic_scraper" class="stretched-link"></a>
+      </div>
     </div>
-  </div>
-  <div class="card bg-danger">
-    <div class="card-body text-center">
-      <p class="card-text">Some text inside the fourth card</p>
     </div>
-  </div>
 </div>
-
-
-</div>
-
-

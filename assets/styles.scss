@@ -6,11 +6,11 @@
 
 // If a user adds a custom font, this component will stop it from bleeding into GitHub components:
 .github-component {
-  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol !important;
+  font-family: sans-serif,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol !important;
 }
 
 .repo-language-color {
-    filter: brightness(125%) !important;
+    filter: brightness(50%) !important;
     border-radius: 50%;
     display: inline-block;
     height: 12px;
@@ -25,6 +25,23 @@
   vertical-align: middle;
 }
 
+h2 {
+    border-bottom: 1px solid #ddd;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  font-family: "Roboto",sans-serif;
+}
+h3 {
+  border-bottom: 1px solid #ddd;
+  margin: auto;
+  padding: 10px;
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: normal;
+  //animation: perimeter 10s;
+  //animation-iteration-count: infinite;
+  //animation-fill-mode: backwards;
+}
 .article {
   h1, h2, h3, h4,
   .highlight {
@@ -56,6 +73,7 @@
 img:hover {
   animation: shake 0.5s;
   animation-iteration-count: infinite;
+  animation-fill-mode: backwards;
 }
 
 @keyframes shake {
@@ -70,4 +88,54 @@ img:hover {
   80% { transform: translate(-1px, -1px) rotate(1deg); }
   90% { transform: translate(1px, 2px) rotate(0deg); }
   100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.card {
+  margin-bottom: 10px;
+}
+
+@keyframes perimeter {
+  0%   {color:red; left:0px; top:0px;}
+  25%  {color:yellow; left:200px; top:0px;}
+  50%  {color:blue; left:200px; top:200px;}
+  75%  {color:green; left:0px; top:200px;}
+  100% {color:red; left:0px; top:0px;}
+}
+
+
+
+#animated_div:hover {
+  animation-name: shake;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: backwards;
+}
+
+@keyframes animated_div
+{
+0% {transform: rotate(0deg);left:0px;}
+25% {transform: rotate(20deg);left:0px;}
+50% {transform: rotate(0deg);left:500px;}
+55% {transform: rotate(0deg);left:500px;}
+70% {transform: rotate(0deg);left:500px;background:#1ec7e6;}
+100% {transform: rotate(-360deg);left:0px;}
+}
+
+@keyframes grow {
+  0% { transform: scale(1.0,1.0) }
+  10% { transform: scale(1.2,1.2) }
+  20% { transform: scale(1.3,1.3) }
+  30% { transform: scale(1.4,1.4) }
+  40% { transform: scale(1.5,1.5) }
+  50% { transform: scale(1.6,1.6) }
+  60% { transform: scale(1.7,1.7) }
+  70% { transform: scale(1.8,1.8) }
+  80% { transform: scale(1.9,1.9) }
+  90% { transform: scale(2,2) }
+  100% { transform: scale(1.0,1.0) }
+
+}
+
+#transition_width:hover {
+  width: 300px;
 }

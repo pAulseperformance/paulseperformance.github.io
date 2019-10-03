@@ -1,9 +1,37 @@
-<h2 {% if site.style == 'dark' %}class="text-white"{% endif %}>My Skills</h2>
-<p class="f4 mb-4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">Skills I have.</p>
-<div class="d-flex flex-wrap gutter-condensed mb-4">
-  {% for skill in site.skills %}
-    <div class="col-6 col-md-12 col-lg-6 col-xl-4 mb-3">
-      {% include skill-card.html %}
+<section id="skills" class="section scrollspy">
+  <h2 {% if site.style == 'dark' %}class="text-white"{% endif %}>My Skills</h2>
+  <p class="f4 mb-4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">I'm pretty good with these</p>
+
+  <div class="d-flex flex-wrap gutter-condensed mb-4">
+    <div class="container" style="margin: auto;">
+      {% for skill in site.skills %}
+      <div class="card">
+        <div class="card-content">
+          <h3 class="text-center"  style="  border-radius: 25px;">
+            {{ skill.category }}
+          </h3>
+          <div class="row" style="margin: auto">
+            {% for tool in skill.tools %}
+            <div class="col-6 col-md-12 col-lg-6 col-xl-4 mb-3"  style="margin-top: 10px;" {% if skill.category == 'Webdesign' %}id="animated_div"{% endif %}>
+              {% include skill-card.html %}
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+      {% endfor %}
     </div>
-  {% endfor %}
-</div>
+  </div>
+</section>
+
+
+<!--line-height: 1.5;-->
+<!--font-family: "Roboto",sans-serif;-->
+<!--font-weight: normal;-->
+<!--color: #333;-->
+<!--font-size: 16px;-->
+<!--padding: 20px;-->
+<!--border-radius: 0 0 2px 2px;-->
+<!--background-clip: padding-box;-->
+<!--box-sizing: border-box;-->
+<!--padding-bottom: 30px;-->

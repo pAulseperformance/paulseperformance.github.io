@@ -49,10 +49,24 @@
       </div>
     {% endif %}
     {% if user.hireable %}
+    <div class="{{ metadata_styles }}" >
+      {% octicon person height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:Location %}
      <a href="mailto:{{ user.email }}" {% if site.style == 'dark' %}class="text-white"{% endif %}>
       <span title="Hire me" class="d-inline-block f5 rounded-2 text-white bg-green py-1 px-2">Available for hire</span>
     </a>
-
+  </div>
     {% endif %}
+    <!-- Calendly link widget begin -->
+    <div class="{{ metadata_styles }}" >
+      {% octicon calendar height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:Location %}
+
+      <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+      <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
+      <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/pauldmendes/15min'});return false;">
+        <span title="Schedule a meeting" class="d-inline-block f5 rounded-2 text-white bg-blue py-1 px-2">Schedule a meeting</span>
+      </a>
+    </div>
+    <!-- Calendly link widget end -->
+
   </div>
 {% endif %}
