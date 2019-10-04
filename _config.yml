@@ -67,64 +67,73 @@ skills:
     - name: HTML
       web_url: https://github.com/topics/html
       image_url: assets/img/html5.png
+      description: ★★★★★
 
     - name: MARKDOWN
       web_url: https://github.com/topics/markdown
       image_url: assets/img/markdown.png
+      description: ★★★★★
 
     - name: CSS
       web_url: https://github.com/topics/css
       image_url: assets/img/css3.png
+      description: ★★★★
 
     - name: SASS
       web_url: https://github.com/topics/scss
       image_url: assets/img/sass.png
+      description: ★★
 
     - name: BOOTSTRAP
       web_url: https://github.com/topics/bootstrap
       image_url: assets/img/bootstrap.png
+      description: ★★
 
     - name: JEKYLL
       web_url: https://github.com/topics/jekyll
       image_url: assets/img/jekyll.png
+      description: ★★
 
  - category: Back-End
    tools:
     - name: FLASK
       web_url: https://github.com/topics/flask
       image_url: assets/img/flask.png
+      description: ★★★
 
     - name: PYTHON
       web_url: https://github.com/topics/python
       image_url: assets/img/python.png
+      description: ★★★★★
 
     - name: REDIS
       web_url: https://github.com/topics/redis
       image_url: assets/img/redis.png
+      description: ★
 
     - name: SQLITE
       web_url: https://github.com/topics/sqlite
       image_url: assets/img/sqlite.png
+      description: ★★★
 
     - name: SQL
       web_url: https://github.com/topics/sql
       image_url: assets/img/sql.png
+      description: ★★★
 
  - category: Other
    tools:
     - name: GIT
       web_url: https://github.com/topics/git
       image_url: assets/img/git.png
-      description: ✭✭✭✭✭✭☄
+      description: ✭✭✭✭
 
     - name: HEROKU
       web_url: https://github.com/topics/heroku
       image_url: assets/img/heroku.png
+      description: ★★
 
     - name: DOCKER
       web_url: https://github.com/topics/docker
       image_url: assets/img/docker.png
-
-    - name: SQLITE
-      web_url: https://github.com/topics/sqlite
-      image_url: assets/img/sqlite.png
+      description: ★
