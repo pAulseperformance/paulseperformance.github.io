@@ -139,3 +139,12 @@ img:hover {
 #transition_width:hover {
   width: 300px;
 }
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+}

@@ -131,6 +131,7 @@ skills:
     - name: GIT
       web_url: https://github.com/topics/git
       image_url: assets/img/git.png
+      description: This is a description!
 
     - name: HEROKU
       web_url: https://github.com/topics/heroku
