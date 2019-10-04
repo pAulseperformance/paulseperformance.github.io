@@ -16,7 +16,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/grilledchickenthighs/grilledchickenthighs.github.io">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="assets/img/favicon/favicon-96x96.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">My Website</h3>
@@ -126,4 +126,4 @@ Project Link: [https://github.com/grilledchickenthighs/grilledchickenthighs.gith
 [license-url]: https://github.com/grilledchickenthighs/grilledchickenthighs.github.io/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/paul-mendes
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: assets/img/favicon/favicon-96x96.png
