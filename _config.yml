@@ -1,5 +1,5 @@
 layout: sidebar
-style: dark
+style: light  # light
 
 plugins:
   - jekyll-octicons
@@ -60,22 +60,6 @@ social_media:
 #    web_url: https://github.com/topics/sass
 #    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
 
-#skills:
-#     category: Web Design
-#       - name: HTML
-#         web_url: https://github.com/topics/css
-#         image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
-#
-#       - name: Flask
-#         web_url: https://github.com/topics/css
-#         image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
-#
-#     - Back End:
-#       - name: Python
-#
-#       - name: Sass
-#         web_url: https://github.com/topics/sass
-#         image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
 
 skills:
  - category: Front-End
