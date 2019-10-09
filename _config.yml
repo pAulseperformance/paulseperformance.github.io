@@ -94,6 +94,11 @@ skills:
       image_url: assets/img/jekyll.png
       description: ★★
 
+    - name: JAVASCRIPT
+      web_url: https://github.com/topics/javascript
+      image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png
+      description: ★★
+
  - category: Back-End
    tools:
     - name: FLASK
@@ -121,7 +126,7 @@ skills:
       image_url: assets/img/sql.png
       description: ★★★
 
- - category: Other
+ - category: DevOps
    tools:
     - name: GIT
       web_url: https://github.com/topics/git
@@ -136,4 +141,11 @@ skills:
     - name: DOCKER
       web_url: https://github.com/topics/docker
       image_url: assets/img/docker.png
-      description: ★
+      description: ★★
+
+ - category: Other
+   tools:
+     - name: PINE SCRIPT
+       web_url: https://www.tradingview.com/pine-script-docs/en/v4/Introduction.html
+       image_url: assets/img/Pine_Script_logo_text.png
+       description: ✭✭✭✭
