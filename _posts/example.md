@@ -1,6 +1,6 @@
 ---
 title: "Just Another idea!"
-published: false
+published: true
 ---
 
 **Good Idea**
