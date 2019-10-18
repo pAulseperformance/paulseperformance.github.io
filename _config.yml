@@ -67,17 +67,17 @@ skills:
     - name: HTML
       web_url: https://github.com/topics/html
       image_url: assets/img/html5.png
-      description: ★★★★★
+      description:
 
     - name: MARKDOWN
       web_url: https://github.com/topics/markdown
       image_url: assets/img/markdown.png
-      description: ★★★★★
+      description:
 
     - name: CSS
       web_url: https://github.com/topics/css
       image_url: assets/img/css3.png
-      description: ★★★★
+      description:
 
     - name: SASS
       web_url: https://github.com/topics/scss
@@ -87,65 +87,65 @@ skills:
     - name: BOOTSTRAP
       web_url: https://github.com/topics/bootstrap
       image_url: assets/img/bootstrap.png
-      description: ★★
+      description:
 
     - name: JEKYLL
       web_url: https://github.com/topics/jekyll
       image_url: assets/img/jekyll.png
-      description: ★★
+      description:
 
     - name: JAVASCRIPT
       web_url: https://github.com/topics/javascript
       image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png
-      description: ★★
+      description:
 
  - category: Back-End
    tools:
     - name: FLASK
       web_url: https://github.com/topics/flask
       image_url: assets/img/flask.png
-      description: ★★★
+      description:
 
     - name: PYTHON
       web_url: https://github.com/topics/python
       image_url: assets/img/python.png
-      description: ★★★★★
+      description:
 
     - name: REDIS
       web_url: https://github.com/topics/redis
       image_url: assets/img/redis.png
-      description: ★
+      description:
 
     - name: SQLITE
       web_url: https://github.com/topics/sqlite
       image_url: assets/img/sqlite.png
-      description: ★★★
+      description:
 
     - name: SQL
       web_url: https://github.com/topics/sql
       image_url: assets/img/sql.png
-      description: ★★★
+      description:
 
  - category: DevOps
    tools:
     - name: GIT
       web_url: https://github.com/topics/git
       image_url: assets/img/git.png
-      description: ✭✭✭✭
+      description:
 
     - name: HEROKU
       web_url: https://github.com/topics/heroku
       image_url: assets/img/heroku.png
-      description: ★★
+      description:
 
     - name: DOCKER
       web_url: https://github.com/topics/docker
       image_url: assets/img/docker.png
-      description: ★★
+      description:
 
  - category: Other
    tools:
      - name: PINE SCRIPT
        web_url: https://www.tradingview.com/pine-script-docs/en/v4/Introduction.html
        image_url: assets/img/Pine_Script_logo_text.png
-       description: ✭✭✭✭
+       description:
